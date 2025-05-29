@@ -3,3 +3,56 @@ body {
   height: 100%;
   margin: 0;
 }
+h1 {
+  text-align: center;
+}
+
+.main-nav{
+ text-align: center;
+ padding-left: 10px;
+ padding-right: 10px;
+ gap: 100px;
+}
+
+.About{background-color: lightgrey;}
+.New {background-color: lightgrey}
+.Listings{background-color: lightgrey;}
+.market-report{background-color: lightgrey;}
+.contact{background-color: lightgrey;}
+.hud{background-color: lightgrey;}
+
+img {
+  display: block;
+  margin: 0 auto;
+  size: 900px;
+}
+
+#featured-property {
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+#featured-property p{
+  width: 800px;
+  margin: 20px auto;
+  text-align: center
+
+}
+
+figcaption{
+  font-size: small;
+}
+
+#details{
+display: flex;
+align-content: center;
+background-color: lightgrey;
+color: black
+
+}
+
+#details div{
+  width: 30%;
+  text-align: center;
+}
